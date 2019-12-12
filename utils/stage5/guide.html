@@ -1,0 +1,32 @@
+
+<div class="text-center"><h2> Anatomy of an error message: the Traceback </h2></div><hr />
+<p>
+    Each pair of lines in the Traceback refers to a 
+    line of Python code. Once again, we read the 
+    Traceback bottom-up.
+</p>
+<p>
+    The two highlighted lines in the terminal provide 
+    us several pieces of information:
+</p>
+<ul>
+    <li>
+        The first line tells us that the error is 
+        happening in <code>sum_pairs.py</code>,
+        on line 14 (which is highlighted on the 
+        right), which is a part of the <code>
+        sum_pairs</code> function.
+    </li>
+    <li>
+        The second line shows us the contents
+        of the line of code in question. 
+    </li>
+</ul>
+<p>
+    This is the line of code that actually ran into 
+    the <code>IndexError</code>. It isn't necessarily 
+    where the mistake was made: it might have happened 
+    somewhere else in the code and only actually caused 
+    an error here, but now we've narrowed down the symptom,
+    if not the cause. 
+</p>

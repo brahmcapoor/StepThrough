@@ -1,0 +1,29 @@
+
+<div class="text-center"><h2> Fixing the program </h2></div><hr />
+<p>
+    Now that we have a sense of what each of the individual 
+    parts of the error message tell us, we can move on to 
+    understanding how we can use this information to correct
+    our program.
+</p>
+<p>
+    The most telling piece of evidence is that we have an 
+    <code>IndexError</code> in our code, meaning that an 
+    index we're using into our list is invalid. 
+</p>
+<p>
+    As a result, we need to find a place in our code wherein
+    we're indexing into a list, and investigate how we might
+    be using an invalid index there. The error message 
+    suggests that it's happening in one of three places:
+</p>
+<ul>
+    <li>Line 14: <code>pair_sum = lst[i] + lst[i + 1]</code></li>
+    <li>Line 23: <code>print(sum_pairs(lst))</code></li>
+    <li>Line 27: <code>main()</code></li>
+</ul>
+<p>
+    Before moving onto the next section, try figuring out 
+    which of these lines might be incorrectly indexing into a list.
+    Which of them is indexing into a list at all? 
+</p>

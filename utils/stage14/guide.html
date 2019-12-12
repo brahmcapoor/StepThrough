@@ -1,0 +1,21 @@
+<div class="text-center"><h2> Another bug bites the dust</h2></div><hr />
+<p>
+    With all that behind us, the fix is relatively simple: 
+    rather than setting the upper bound of the call to 
+    <code>range</code> to be <code>len(lst)</code>, 
+    we set it to be <code>len(lst) - 1</code>. This 
+    means that the maximum possible value of <code>i</code>
+    is <code>len(lst) - 2</code> (or in the case of this 
+    particular program, 2). Thus, the maximum value of 
+    <code>i + 1</code> is <code>len(lst) - 1</code> (or
+    in the case of this particular program, 3), which 
+    remains a valid index. 
+</p>
+<p>
+    Running this modified program reveals to us the fruits 
+    of our labor: the program doesn't crash, and more to the point, 
+    gives us the correct output!
+</p>
+
+
+
