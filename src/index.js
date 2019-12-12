@@ -9,20 +9,9 @@ import SplashPage from './splashpage/splash';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-// const routing = (
-//     <Router>
-//         <Provider store={configureStore()}>
-//             <Switch>
-//                 <Route path="/" component={SplashPage} /> 
-//                 <Route path="/errormessages" component={App} />  
-//             </Switch>
-//         </Provider>
-//     </Router>
-// )
-
 const routing = (
     <Provider store={configureStore()}>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <div>
                 <Route exact path="/" component={SplashPage} /> 
                 <Route path="/errormessages" component={App} />
