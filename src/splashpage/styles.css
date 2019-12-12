@@ -1,0 +1,39 @@
+body {
+    background: rgb(223, 223, 223);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(59 , 59, 59);
+    font-size: 16vmin;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+}
+
+code {
+    font-family: 'Fira Code', monospace;
+}
+
+.mainContents{
+    width: 75%;
+    margin: 25px auto;
+    padding-top: 10px 20px 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.contentsPane{
+    padding: 20px;
+}
+
+.navlink {
+    font-family: 'Lato', sans-serif;
+    color: darkgrey;
+}
+
+.navlink-special {
+    font-family: 'Avenir', sans-serif;
+}

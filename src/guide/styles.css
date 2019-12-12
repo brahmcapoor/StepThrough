@@ -1,0 +1,19 @@
+.content {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 20px;
+    background: rgb(248, 248, 248);
+}
+
+.content p, h2, li {
+    font-family: 'Georgia', Times, serif;
+}
+
+code {
+    font-family: 'Fira Code', monospace;
+}
+
+.content p {
+    text-align: justify;
+}

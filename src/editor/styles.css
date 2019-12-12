@@ -1,0 +1,8 @@
+.highlighted {
+    background-color: grey;
+    position: absolute;
+}
+
+.editor {
+    margin: auto;
+}
