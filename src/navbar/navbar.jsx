@@ -24,7 +24,7 @@ class NavBar extends React.Component {
         return (
             <div>
             <Navbar bg="dark" variant="dark" fixed="top">
-            <Navbar.Brand href="/">StepThrough</Navbar.Brand>
+            <Navbar.Brand href="http://brahmcapoor.com/StepThrough">StepThrough</Navbar.Brand>
             <div className="ml-auto right-part">
                 <OverlayTrigger
                     placement="bottom"

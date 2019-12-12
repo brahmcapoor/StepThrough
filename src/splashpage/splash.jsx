@@ -36,7 +36,7 @@ function SplashPage() {
                 StepThrough
             </h1>
             <br />
-            <Tabs fill defaultActiveKey="roadmap" mountOnEnter>
+            <Tabs fill defaultActiveKey="about" mountOnEnter>
                 <Tab eventKey="about" title="About">
                     <About />
                 </Tab>

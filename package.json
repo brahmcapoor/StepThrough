@@ -2,7 +2,7 @@
   "name": "stepthrough",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://brahmcapoor.com/StepThrough",
+  "homepage": "http://brahmcapoor.com/StepThrough/",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "react": "^16.12.0",
