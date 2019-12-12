@@ -1,0 +1,3 @@
+2
+$ python3 sum_pairs.py
+[3, 5, 7]

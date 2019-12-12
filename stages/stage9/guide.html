@@ -1,0 +1,36 @@
+
+<div class="text-center"><h2> Isolating the cause </h2></div><hr />
+<p>
+    Line 14 of the program is likely the culprit,
+    since it's the only one of the lines of code 
+    which is accessing an index in a list: 
+</p>
+<div class="text-center">
+    <code>pair_sum = lst[i] + lst[i + 1]</code>
+</div>
+<br />
+<p>
+    We're using two separate indices in this line: 
+    <code>i</code> and <code>i + 1</code>. Either of 
+    these might be invalid, and in order to fix our 
+    program, we need to identify which index is the 
+    problematic one. 
+</p>
+<p>
+    There are several strategies you might reasonably
+    choose to employ at this point. Perhaps the most 
+    tempting might be to try to reason through the code, 
+    and deduce what is causing the program's misbehaviour. 
+</p>
+<p>
+    This isn't a bad idea, and is eventually what we'll 
+    turn to. That said, correct and effective deduction relies on 
+    plentiful evidence, and we might not have quite enough 
+    evidence just yet. For example, line 27 occurs within a 
+    <code>for</code> loop, and it's unclear to us which 
+    iteration of the <code>for</code> loop the error is 
+    occurring in. Luckily, there's one tool you're very 
+    familiar with already that can help us collect this 
+    evidence: the <code>print</code> function.
+</p>
+

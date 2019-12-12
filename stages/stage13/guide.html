@@ -1,0 +1,23 @@
+<div class="text-center"><h2> The root cause</code></h2></div><hr />
+<p>
+    The problematic index is <code>i + 1</code>, which in the 4th 
+    iteration of the <code>for</code> loop is equal to <code>4</code> 
+    (remember, <code>i</code> starts off with a value of <code>0</code>).
+    <code>lst</code> has 4 elements, so accessing <code>lst[i + 1]</code>
+    is an invalid index and so causes the <code>IndexError</code>.
+</p>
+<p>
+    In short, our problem is that we're running off the end of the list:
+    specifically, that we're going through the loop one too many times. 
+    Semantically, it's probably unnecessary that we even get there: our goal 
+    in the function is to sum elements in the list with the elements that follow
+    them, and there's nothing after the last element in the list. 
+</p>
+<p>
+    With that in mind, think about how you'd change this code to fix the bug 
+    before moving to the next section. 
+</p>
+
+
+
+

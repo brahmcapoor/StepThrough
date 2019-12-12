@@ -1,0 +1,29 @@
+14
+
+def sum_pairs(lst):
+    """
+    Given a nonempty list of integers, computes 
+    the sum of each pair of consecutive integers 
+    and returns a list of these sums.
+
+    >>> sum_pairs([1,2,3,4])
+    [3, 5, 7]
+    """
+    result = []
+
+    for i in range(0, len(lst)):
+        print(i)
+        pair_sum = lst[i] + lst[i + 1]
+        result.append(pair_sum)
+
+    return result
+
+
+def main():
+    # define a list to test with
+    lst = [1, 2, 3, 4] 
+    print(sum_pairs(lst))
+
+
+if __name__ == "__main__":
+    main()
